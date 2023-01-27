@@ -1,6 +1,6 @@
 {
   "name": "react-anime-tab",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "devDependencies": {
     "@nuxt/friendly-errors-webpack-plugin": "^2.5.2",
