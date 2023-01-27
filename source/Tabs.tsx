@@ -26,6 +26,7 @@ function Tabs({
           ...(style as any),
         }}
         style={style}
+        id={"tab-container"}
       >
         {items.map((item) => {
           return <TabItem {...item} {...props} key={item.id} />;

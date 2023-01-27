@@ -14,10 +14,13 @@ function UnderLine({ lineStyle }: LineProps) {
     const selectedElement = document.getElementById(
       "tab-item-" + selectedKeys[0]
     );
+    const containerElement = document.getElementById("tab-container")!;
 
     if (selectedElement) {
       setMovement({
-        left: selectedElement.getBoundingClientRect().left,
+        left:
+          selectedElement.getBoundingClientRect().left -
+          containerElement.getBoundingClientRect().left,
         width: selectedElement.getBoundingClientRect().width,
       });
     }
