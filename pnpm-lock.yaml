@@ -6,8 +6,8 @@ specifiers:
   '@swc/core': 1.3.30
   '@swc/helpers': 0.4.14
   '@types/node': ^18.11.18
-  '@types/react': 18.0.27
-  '@types/react-dom': 18.0.11
+  '@types/react': 18.2.73
+  '@types/react-dom': 18.2.23
   autoprefixer: 10.4.13
   css-loader: 6.7.3
   css-minimizer-webpack-plugin: 4.2.2
@@ -39,8 +39,8 @@ devDependencies:
   '@swc/core': 1.3.30
   '@swc/helpers': 0.4.14
   '@types/node': 18.11.18
-  '@types/react': 18.0.27
-  '@types/react-dom': 18.0.11
+  '@types/react': 18.2.73
+  '@types/react-dom': 18.2.23
   autoprefixer: 10.4.13_postcss@8.4.21
   css-loader: 6.7.3_webpack@5.75.0
   css-minimizer-webpack-plugin: 4.2.2_webpack@5.75.0
@@ -542,17 +542,16 @@ packages:
     resolution: {integrity: sha512-EEhsLsD6UsDM1yFhAvy0Cjr6VwmpMWqFBCb9w07wVugF7w9nfajxLuVmngTIpgS6svCnm6Vaw+MZhoDCKnOfsw==}
     dev: true
 
-  /@types/react-dom/18.0.11:
-    resolution: {integrity: sha512-O38bPbI2CWtgw/OoQoY+BRelw7uysmXbWvw3nLWO21H1HSh+GOlqPuXshJfjmpNlKiiSDG9cc1JZAaMmVdcTlw==}
+  /@types/react-dom/18.2.23:
+    resolution: {integrity: sha512-ZQ71wgGOTmDYpnav2knkjr3qXdAFu0vsk8Ci5w3pGAIdj7/kKAyn+VsQDhXsmzzzepAiI9leWMmubXz690AI/A==}
     dependencies:
-      '@types/react': 18.0.27
+      '@types/react': 18.2.73
     dev: true
 
-  /@types/react/18.0.27:
-    resolution: {integrity: sha512-3vtRKHgVxu3Jp9t718R9BuzoD4NcQ8YJ5XRzsSKxNDiDonD2MXIT1TmSkenxuCycZJoQT5d2vE8LwWJxBC1gmA==}
+  /@types/react/18.2.73:
+    resolution: {integrity: sha512-XcGdod0Jjv84HOC7N5ziY3x+qL0AfmubvKOZ9hJjJ2yd5EE+KYjWhdOjt387e9HPheHkdggF9atTifMRtyAaRA==}
     dependencies:
       '@types/prop-types': 15.7.5
-      '@types/scheduler': 0.16.2
       csstype: 3.1.1
     dev: true
 
@@ -564,10 +563,6 @@ packages:
 
   /@types/retry/0.12.0:
     resolution: {integrity: sha512-wWKOClTTiizcZhXnPY4wikVAwmdYHp8q6DmC+EJUzAMsycb7HB32Kh9RN4+0gExjmPmZSAQjgURXIGATPegAvA==}
-    dev: true
-
-  /@types/scheduler/0.16.2:
-    resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
     dev: true
 
   /@types/serve-index/1.9.1:
